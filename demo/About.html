@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            About Us
+        </title>
+	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <div style="display: flex;justify-content: space-between;">
+        {% load static %}
+        <img src="{% static 'Image4.jpg' %}" style="height: 629px;width: 50%;position:absolute;"/>
+        <h2 style="font-size: 30px;margin-left:850px;margin-top:70px;vertical-align: top;color:black;font-family: 'Roboto', sans-serif;">Demonitization Analysis</h2>
+	<h4 style="position:absolute;margin-top:120px;vertical-align: top;color:black;font-family: 'Roboto', sans-serif;margin-left:940px;">Developers</h4>
+	{% load static %}
+        <img src="{% static 'P1.jpg' %}" style="height:70px;width:70px;position:absolute;border-radius:50px;margin-left:970px;margin-top:170px;"/>
+	<p style="position:absolute;margin-top:250px;color:black;font-family: 'Roboto', sans-serif;margin-left:930px;">ABHIJIT H KULKARNI</p>
+
+	<img src="{% static 'P2.jpg' %}" style="height:70px;width:70px;position:absolute;border-radius:50px;margin-left:970px;margin-top:290px;"/>
+	<p style="position:absolute;margin-top:370px;color:black;font-family: 'Roboto', sans-serif;margin-left:950px;">DHIRAJ S SHET</p>
+
+	<img src="{% static 'P3.jpg' %}" style="height:70px;width:70px;position:absolute;border-radius:50px;margin-left:970px;margin-top:410px;"/>
+	<p style="position:absolute;margin-top:490px;color:black;font-family: 'Roboto', sans-serif;margin-left:950px;">KIRANKUMAR M</p>
+
+	<nav class="navbar navbar-expand-sm bg-light navbar-light fixed-bottom justify-content-center" style="margin-left:51%;margin-right:15px;border-radius:5px;margin-bottom:15px;">
+	  <ul class="navbar-nav">
+	    <li class="nav-item">
+	      <a class="nav-link" href="http://127.0.0.1:8000">Home</a>
+	    </li>
+	    <li class="nav-item">
+	      <a class="nav-link" href="http://127.0.0.1:8000/result">Results</a>
+	    </li>
+	    <li class="nav-item">
+	      <a class="nav-link" href="http://127.0.0.1:8000/visualize">Visualize</a>
+	    </li>
+	    <li class="nav-item">
+	      <a class="nav-link" href="http://127.0.0.1:8000/about">About</a>
+	    </li>
+	  </ul>
+	</nav>
+        </div>
+    </body>
+</html>
